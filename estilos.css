@@ -24,6 +24,9 @@ header{
 
   
 }
+body{
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
 header span{
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -65,7 +68,7 @@ section#areatexto{
     grid-area: texto1;
     padding: 10px;
     margin-left: 50px;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -148,7 +151,7 @@ main#map{
     #areafoto{
         display: none;
     }
-    @media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
         footer{
             display: flex;
 }
@@ -160,7 +163,7 @@ main#map{
         
 
     }
-    @media screen and (max-width: 460px){
+@media screen and (max-width: 460px){
         header{
             display: flexbox;
         }
@@ -169,5 +172,6 @@ main#map{
             color: rgb(78, 67, 67);
             
         }
-        
+       
+    
            
